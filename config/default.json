@@ -1,3 +1,4 @@
 {
-    "MongoURI": mongodb+srv://johnywhyte:johnywhyte@ecommerce1-m90hn.mongodb.net/<dbname>?retryWrites=true&w=majority
+    "mongoURI": "mongodb+srv://johnywhyte:johnywhyte@ecommerce1-m90hn.mongodb.net/ecommerce1?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
 }

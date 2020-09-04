@@ -1,11 +1,14 @@
 {
-  "name": "e-commerce1",
+  "name": "mydevconnector",
   "version": "1.0.0",
-  "description": "My node.js e-commerce",
+  "description": "My node.js devconnector",
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+   
   },
   "author": "Johny Whyte",
   "license": "MIT",
